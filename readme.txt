@@ -1,0 +1,49 @@
+=== Plugin Name ===
+Contributors: stu-in-flag
+Donate link: http://stu-in-flag.net/sqp_plugin
+Tags: sunrise, sunset, twilight, solar, astronomical, calculator 
+Requires at least: 2.9.2
+Tested up to: 2.9.2
+Stable tag: 0.1
+
+A simple plug-in widget to allow the display of sunrise/set data.
+
+== Description ==
+
+	*	
+		stu-in-flag@stu-in-flag.net. 
+	
+		I'll see what I can do.
+
+== Installation ==
+
+1. 	Upload the unzipped folder and contents to the `/wp-content/plugins/` directory
+2. 	Activate the plugin through the 'Plugins' menu in WordPress
+3. 	Include the widget on your sidebar, header or footer as allowed by your theme.
+	This is done on the 'Widgets' admin page which is found in the 'Appearance'
+	section of the admin menu. See screenshot2.png. Drag the widget to the appro-
+	priate section.
+4.	Setup the widget to show your picture using the admin window. Your latitude
+	and longitude need to be in decimal degree format. You can find this on many
+	map websites. Google Earth works well for this. The time zone is set with GMT
+	time zone difference. This can be found at many time zone sites, like
+	http://www.worldtimezone.com/ and http://www.time.gov.
+5.	Very important: DAYIGHT SAVINGS TIME MUST MANUALLY CHANGED. With differences
+	around the world, and local law changes, it's would be craziness to try and code
+	these. So, when you spring-forward or fall-back, change the Daylight Savings
+	Time checkbox. Lucky for me, I live in Arizona where we don't mess with the time.
+
+== Screenshots ==
+
+screenshot1.png		This screenshot shows the output of the widget on my blog.
+					It is in the right sidebar.
+
+screenshot2.png		This screenshot shows the 'Widget' admin page in WordPress
+					There are several useful parts. First, on the middle left
+					side of the image, the location of the 'Widget' menu selection
+					is located under the 'Appearance' tab. Secoond, it shows the
+					widget in the sidebar location. Third, it shows the admin
+					control window and the variables which can be altered.
+
+== Changelog ==
+0.1	Version 0.1 plain and simple. It seems to work.
