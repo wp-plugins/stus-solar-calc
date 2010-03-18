@@ -10,7 +10,21 @@ A simple plug-in widget to allow the display of sunrise/set data.
 
 == Description ==
 
-	*	
+	*	This is pretty straight forward plugin that takes your locally infor-
+	mation and produces a set of sunrise, sunset and twilight data. 
+	*	You need to know how many hours your time zone is from Greenwich Mean Time.
+	There is a feature for selecting Daylight Savings Time (DST), but this must
+	be done	manually when your location makes the shift. Because of different 
+	DST	practices and occassional changes made by the governments, I did not
+	try to code DST changes. This can be found at many time zone sites, like
+	http://www.worldtimezone.com/ and http://www.time.gov.
+	*	Also, you have to be able to input your decimal	degrees latitude and long-
+	itude. Google Earth can be set up to get this. 		
+	*	I am using this widget on my own blog and intend to for the long-term. So, I
+	think it is reasonably safe. There is very little error trapping for 
+	entering the wrong values in the admin window on the widgets page. If you have
+	issues with the plugin, or ideas for improvements, please let me know.	
+		
 		stu-in-flag@stu-in-flag.net. 
 	
 		I'll see what I can do.
