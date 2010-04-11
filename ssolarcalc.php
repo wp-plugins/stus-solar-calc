@@ -3,7 +3,7 @@
 		Plugin Name: Stu's Solar Calc
 		Plugin URI: http://stu-in-flag.net/blog/
 		Description: A simple plug-in widget to allow the display of sunrise/set data.
-		Version: 0.1
+		Version: 0.2
 		Author: Stu-in-Flag
 		Author URI: http://stu-in-flag.net
 		Author email: stu-in-flag@stu-in-flag.net
@@ -98,7 +98,7 @@
 			<?php
 			
 			if ($instance['dst']=='on') {
-				$timeGMT = gmdate("H:i", time() + 3600*($instance['offset']-1));  //  with Daylight Savings Time
+				$timeGMT = gmdate("H:i", time() + 3600*($instance['offset']+1));  //  with Daylight Savings Time
 			}
 			else{
 				$timeGMT = gmdate("H:i", time() + 3600*$instance['offset']);  //  without Daylight Savings Time
@@ -127,7 +127,7 @@
 			echo $before_title.'Daily Sunrise/Sunset'.$after_title;	
 			
 			if ($instance['dst']=='on') {
-				$timeGMT =  gmdate("H:i", time() + 3600*($instance['offset']-1));  //  with Daylight Savings Time
+				$timeGMT =  gmdate("H:i", time() + 3600*($instance['offset']+1));  //  with Daylight Savings Time
 			}
 			else {
 				$timeGMT =  gmdate("H:i", time() + 3600*$instance['offset']);  //  without Daylight Savings Time

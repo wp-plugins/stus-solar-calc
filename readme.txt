@@ -4,7 +4,7 @@ Donate link: http://stu-in-flag.net/sqp_plugin
 Tags: sunrise, sunset, twilight, solar, astronomical, calculator 
 Requires at least: 2.9.2
 Tested up to: 2.9.2
-Stable tag: 0.1
+Stable tag: 0.2
 
 A simple plug-in widget to allow the display of sunrise/set data.
 
@@ -61,3 +61,7 @@ screenshot2.png		This screenshot shows the 'Widget' admin page in WordPress
 
 == Changelog ==
 0.1	Version 0.1 plain and simple. It seems to work.
+
+0.2 Version 0.2 Daylight Savings Time (DST) was incorrectly calculated.
+	Changed "-" to "+" in lines 101 and 130. Thanks to DLinton for catching
+	this error. 
